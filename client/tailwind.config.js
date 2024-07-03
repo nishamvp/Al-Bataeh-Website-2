@@ -8,9 +8,11 @@ export default {
       secondary: "#f7f7f9",
       tertiary: "#0e3531",
       quarternary: "#e67850",
+      gray:"#767676"
     },
     fontFamily: {
       "dm-sans": ["DM Sans", "sans-serif"],
+      "dm-serif": ["Marcellus", "serif"],
     },
   },
   plugins: [
