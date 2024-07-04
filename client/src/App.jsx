@@ -1,4 +1,5 @@
 import './App.css'
+import ImageContainer from './components/ImageContainer'
 import NavBar from './components/NavBar'
 import TopBar from './components/TopBar'
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <TopBar/>
       <NavBar/>
+      <ImageContainer />
     </div>
   )
 }
