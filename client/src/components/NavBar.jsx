@@ -5,7 +5,7 @@ import SearchSection from './SearchSection'
 
 const NavBar = () => {
   return (
-    <div className="bg-primary h-24  ">
+    <div className="bg-primary h-28 flex flex-col justify-center  ">
       <div className="custom-container font-dm-sans flex items-center justify-between">
         <BataehBrand />
         <NavBarLinks />
