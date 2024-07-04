@@ -6,21 +6,30 @@ export default {
       keyframes: {
         'slide-bg': {
           '0%': {
-            backgroundImage: 'linear-gradient(to top, rgba(255, 255, 255, 0), #06201e), url("picture_1.jpg")'
+            backgroundImage: 'linear-gradient(to left, rgba(255, 255, 255, 0), #06201e), url("picture_1.jpg")'
           },
           '33%': {
-            backgroundImage: 'linear-gradient(to top, rgba(255, 255, 255, 0), #06201e), url("picture_2.jpg")'
+            backgroundImage: 'linear-gradient(to left, rgba(255, 255, 255, 0), #06201e), url("picture_2.jpg")'
           },
           '66%': {
-            backgroundImage: 'linear-gradient(to top, rgba(255, 255, 255, 0), #06201e), url("picture_3.jpg")'
+            backgroundImage: 'linear-gradient(to left, rgba(255, 255, 255, 0), #06201e), url("picture_3.jpg")'
           },
           '100%': {
-            backgroundImage: 'linear-gradient(to top, rgba(255, 255, 255, 0), #06201e), url("picture_4.jpg")'
+            backgroundImage: 'linear-gradient(to left, rgba(255, 255, 255, 0), #06201e), url("picture_4.jpg")'
+          }
+        },
+        'slide-text': {
+          'from': {
+            marginTop: "200px"
+          },
+          'to': {
+            marginTop: "0"
           }
         }
       },
       animation: {
-        'slide-bg': 'slide-bg 15s linear infinite'
+        'slide-bg': 'slide-bg 15s linear infinite',
+        'slide-text': 'slide-text 1s linear 1'
       }
     },
     colors: {
