@@ -25,11 +25,20 @@ export default {
           'to': {
             marginTop: "0"
           }
+        },
+       'text-quarternary': {
+          '0%': {
+            color: '#ffffff'
+          },
+          '100%': {
+            color: '#e67850'
+          }
         }
       },
       animation: {
         'slide-bg': 'slide-bg 15s linear infinite',
-        'slide-text': 'slide-text 1s linear 1'
+        'slide-text': 'slide-text 1s linear 1',
+        'text-quarternary': 'text-quarternary 2s ease-out infinite'
       },
     },
     colors: {
