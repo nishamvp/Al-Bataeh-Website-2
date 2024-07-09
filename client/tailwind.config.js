@@ -30,7 +30,7 @@ export default {
       animation: {
         'slide-bg': 'slide-bg 15s linear infinite',
         'slide-text': 'slide-text 1s linear 1'
-      }
+      },
     },
     colors: {
       primary: "#ffffff",
@@ -51,6 +51,12 @@ export default {
           padding: "1rem 2rem",
           margin: "0 1rem",
         },
+        ".card-hover:hover": {
+          transform: "scale(1.05)",
+          transition: "all 0.3s ease-in-out",
+          background: "#e67850",
+          color: "#fff ",
+        }
       });
     },
   ],
