@@ -3,7 +3,7 @@ import ProfileIcon from './vectors/ProfileIcon'
 
 const DepartmentCard = () => {
   return (
-    <div className="flex w-1/4 flex-col gap-5 px-5 py-8 font-dm-sans bg-[#0b2d2a]  hover:outline outline-1 outline-quarternary">
+    <div className="mb-8 flex max-w-96 flex-col gap-5 px-5 py-8 font-dm-sans bg-[#0b2d2a]  hover:outline outline-1 outline-quarternary">
       <ProfileIcon />
       <h1 className="text-xl font-bold text-primary hover:animate-text-quarternary">
         Job & Unemployement
