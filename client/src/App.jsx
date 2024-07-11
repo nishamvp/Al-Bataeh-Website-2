@@ -1,6 +1,7 @@
 import './App.css'
 import Activities from './components/Activities'
 import Departments from './components/Departments'
+import Details from './components/Details'
 import ImageContainer from './components/ImageContainer'
 import NavBar from './components/NavBar'
 import Services from './components/Services'
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <Departments />
       <Activities />
+      <Details/>
     </div>
   )
 }

@@ -65,6 +65,20 @@ export default {
           transition: "all 0.3s ease-in-out",
           background: "#e67850",
           color: "#fff ",
+        },
+        ".outline-filter": {
+          filter: "brightness(0) invert(0) ",
+          opacity: "0.1"
+        },
+        ".color-overlay": {
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          backgroundColor: "#0e3731",
+          mixBlendMode: "multiply",
+          zIndex: -1
         }
       });
     },
