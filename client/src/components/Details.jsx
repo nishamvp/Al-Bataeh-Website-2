@@ -1,17 +1,16 @@
 import React from 'react'
-import DepartmentCard from './DepartmentCard'
+import DetailsCard from './DetailsCard'
 
 const Details = () => {
   return (
     <div className="bg-tertiary relative">
-      <div className="relative">
-        <img
-          className="w-full object-cover outline-filter"
-          src="Full view Albataeh.png"
-          alt=""
-        />
-        <div className="color-overlay"></div>
-        <h1 className="absolute z-10 top-6 w-full text-center text-primary font-dm-sans font-bold">absolute</h1>
+      <div className="custom-container">
+        <div className="flex flex-wrap justify-center gap-4 items-center my-14">
+          <DetailsCard />
+          <DetailsCard />
+          <DetailsCard />
+          <DetailsCard />
+        </div>
       </div>
     </div>
   )
