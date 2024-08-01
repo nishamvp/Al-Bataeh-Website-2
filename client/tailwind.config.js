@@ -4,41 +4,54 @@ export default {
   theme: {
     extend: {
       keyframes: {
-        'slide-bg': {
-          '0%': {
-            backgroundImage: 'linear-gradient(to left, rgba(255, 255, 255, 0), #06201e), url("picture_1.jpg")'
+        "slide-bg": {
+          "0%": {
+            backgroundImage:
+              'linear-gradient(to left, rgba(255, 255, 255, 0), #06201e), url("picture_1.jpg")',
           },
-          '33%': {
-            backgroundImage: 'linear-gradient(to left, rgba(255, 255, 255, 0), #06201e), url("picture_2.jpg")'
+          "33%": {
+            backgroundImage:
+              'linear-gradient(to left, rgba(255, 255, 255, 0), #06201e), url("picture_2.jpg")',
           },
-          '66%': {
-            backgroundImage: 'linear-gradient(to left, rgba(255, 255, 255, 0), #06201e), url("picture_3.jpg")'
+          "66%": {
+            backgroundImage:
+              'linear-gradient(to left, rgba(255, 255, 255, 0), #06201e), url("picture_3.jpg")',
           },
-          '100%': {
-            backgroundImage: 'linear-gradient(to left, rgba(255, 255, 255, 0), #06201e), url("picture_4.jpg")'
-          }
+          "100%": {
+            backgroundImage:
+              'linear-gradient(to left, rgba(255, 255, 255, 0), #06201e), url("picture_4.jpg")',
+          },
         },
-        'slide-text': {
-          'from': {
-            marginTop: "200px"
+        "slide-text": {
+          from: {
+            marginTop: "200px",
           },
-          'to': {
-            marginTop: "0"
-          }
+          to: {
+            marginTop: "0",
+          },
         },
-       'text-quarternary': {
-          '0%': {
-            color: '#ffffff'
+        "text-quarternary": {
+          "0%": {
+            color: "#ffffff",
           },
-          '100%': {
-            color: '#e67850'
-          }
-        }
+          "100%": {
+            color: "#e67850",
+          },
+        },
+        "details-card-slideup": {
+          "0%": {
+            transform: "translateY(70%)",
+          },
+          "100%": {
+            transform: "translateY(0%)",
+          },
+        },
       },
       animation: {
-        'slide-bg': 'slide-bg 15s linear infinite',
-        'slide-text': 'slide-text 1s linear 1',
-        'text-quarternary': 'text-quarternary 2s ease-out infinite'
+        "slide-bg": "slide-bg 15s linear infinite",
+        "slide-text": "slide-text 1s linear 1",
+        "text-quarternary": "text-quarternary 2s ease-out infinite",
+        "details-card-slideup": "details-card-slideup 1s linear 1",
       },
     },
     colors: {
@@ -46,7 +59,7 @@ export default {
       secondary: "#f7f7f9",
       tertiary: "#0e3531",
       quarternary: "#e67850",
-      gray: "#767676"
+      gray: "#767676",
     },
     fontFamily: {
       "dm-sans": ["DM Sans", "sans-serif"],
@@ -66,20 +79,6 @@ export default {
           background: "#e67850",
           color: "#fff ",
         },
-        ".outline-filter": {
-          filter: "brightness(0) invert(0) ",
-          opacity: "0.1"
-        },
-        ".color-overlay": {
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          backgroundColor: "#0e3731",
-          mixBlendMode: "multiply",
-          zIndex: -1
-        }
       });
     },
   ],

@@ -14,7 +14,7 @@ const DetailsCard = () => {
           downCircle
             ? ' items-center bg-quarternary top-8 relative'
             : 'items-end  bg-tertiary'
-        } `}
+        } `} 
       >
         <RunningManIcon hover={downCircle} />
       </div>
